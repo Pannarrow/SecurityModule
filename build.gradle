@@ -1,0 +1,33 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        flatDir {
+            dirs 'libs' //this way we can find the .aar file in libs folder
+        }
+        google()
+        maven {
+            url 'https://maven.fabric.io/public'//firebase crashlytics所需
+        }
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.0'
+        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:3.1.1"
+    }
+}
+
+allprojects {
+    repositories {
+        flatDir {
+            dirs 'libs' //this way we can find the .aar file in libs folder
+        }
+        google()
+        jcenter()
+        maven {
+            url "http://p.mtiny.cn:8091/artifactory/libs-release-local"
+        }
+    }
+}
+
+

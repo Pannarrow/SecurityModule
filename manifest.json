@@ -1,0 +1,13 @@
+{
+  "pluginName":"TinySecurity",
+  "version":"0.0.11-BETA",
+  "describe":"Tiny3.0Android安全模块",
+  "dependencies":[
+    "cn.sunline.component:security:0.0.11-BETA"
+  ],
+  "flag":"0",
+  "pluginUrl":"https://p.mtiny.cn:9443/document3/",
+  "appType":"0",
+  "permission":[],
+  "pluginType":"0"
+}

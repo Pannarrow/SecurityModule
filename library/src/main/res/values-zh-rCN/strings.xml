@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_result_40000">反调试检查成功</string>
+    <string name="security_result_40001">该应用程序不是官方软件包,请下载官方软件包</string>
+    <string name="security_result_40002">堆栈有可疑的方法调用</string>
+    <string name="security_result_40003">出于安全考虑，不允许越狱设备使用APP</string>
+    <string name="security_result_40004">出于安全考虑，模拟器不允许使用APP</string>
+    <string name="security_result_40005">要使用这个应用程序，你需要打开设备设置的锁屏</string>
+    <string name="security_result_40006">%1$s被串改</string>
+    <string name="crc_file">crc文件</string>
+</resources>

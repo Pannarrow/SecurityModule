@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_result_40000">anti check success</string>
+    <string name="security_result_40001">the app is not official package , please download official package</string>
+    <string name="security_result_40002">the stack has suspicious method calls</string>
+    <string name="security_result_40003">Jailbreak/Root device is not allowed to use app due to security purpose</string>
+    <string name="security_result_40004">Emulator is not allowed to use app due to security purpose</string>
+    <string name="security_result_40005">To use this app you need to turn on lockscreen on your device setting</string>
+    <string name="security_result_40006">%1$s has been modified</string>
+    <string name="crc_file">crc file</string>
+</resources>
